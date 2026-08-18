@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تدوير الألعاب والأغراض القديمة | عالم طفلي</title>
+<meta name="description" content="أفكار عملية لتحويل الألعاب والأغراض القديمة إلى أشياء جديدة ومفيدة، بمشاركة طفلك في كل خطوة.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand"><span class="bud">🌍</span> عالم طفلي</a>
+    <nav class="main-nav" id="site-nav" aria-label="التنقل الرئيسي"></nav>
+    <div class="header-right">
+      <div class="lang-switcher">
+        <button class="lang-switcher-btn" id="lang-switcher-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          🌐 <span id="current-lang-label">العربية</span> <span class="chev">▾</span>
+        </button>
+        <div class="lang-dropdown" id="lang-dropdown">
+          <button class="lang-option" data-lang="ar">العربية <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="en">English <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="fr">Français <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="es">Español <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="ur">اردو <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="tr">Türkçe <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="de">Deutsch <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="ru">Русский <span class="check">✓</span></button>
+          <button class="lang-option" data-lang="hi">हिन्दी <span class="check">✓</span></button>
+        </div>
+        <div id="google_translate_element"></div>
+      </div>
+      <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">♻️ تدوير وإبداع</span>
+      <h1>حوّلوا الألعاب والأغراض القديمة إلى شيء جديد</h1>
+      <p>بدل الرمي، حوّلوا وقت "تنظيف الغرفة" إلى نشاط عائلي ممتع يعلّم طفلك الإبداع واحترام الموارد.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <h2>🎥 فيديوهات ملهمة للتدوير</h2>
+      </div>
+      <div class="video-grid" id="recycle-video-grid"></div>
+      </div>
+  </section>
+
+  <section class="section bg-alt" style="border-radius: 40px; margin: 0 24px 60px; padding: 70px 40px;">
+    <div class="container" style="padding:0;">
+      <div class="section-head center">
+        <h2>🛠️ مشاريع بسيطة جرّبوها في البيت</h2>
+        <p>أفكار عملية تحتاج فقط لأدوات بسيطة من المنزل ووقت ممتع مع طفلك.</p>
+      </div>
+      <div class="content-grid" id="recycle-projects-grid"></div>
+      </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h2>ليه التدوير مهم لطفلك؟</h2>
+          <p>ينمّي الإبداع، يعلّم قيمة الأشياء، ويغرس احترام البيئة عمليًا لا نظريًا فقط — راجعوا قسم أفلام البيئة لمزيد من الإلهام.</p>
+        </div>
+        <a href="videos.html" class="btn btn-amber" style="background:var(--white); color:var(--teal-deep); box-shadow:none;">شاهدوا أفلام البيئة</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2026 عالم طفلي. جميع الحقوق محفوظة.</span>
+      <a href="index.html">العودة للرئيسية</a>
+    </div>
+    <p class="admin-note">يُدار المحتوى ويُنظَّم بإشراف فريق الموقع، بمساعدة أدوات الذكاء الاصطناعي.</p>
+  </div>
+</footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ar', includedLanguages: 'en,fr,es,ur,tr,id,de,ru,hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

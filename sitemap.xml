@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN.com/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/routine.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/development.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/parents-guide.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/videos.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/recycle.html</loc><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/fashion.html</loc><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/nutrition.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/exercises.html</loc><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.com/contact.html</loc><priority>0.6</priority></url>
+</urlset>
